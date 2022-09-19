@@ -34,7 +34,7 @@ p {
     color: #e5e7eb;
 }
 
-li {
+li a{
     font-family:'Courier New', Courier, monospace;
     font-size: 18px;
     color: #e5e7eb;
@@ -44,26 +44,91 @@ li {
     background-color:  #1f2937;
     height: 400px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    gap: 20px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 700px;
+    gap: 50px;
+}
+
+.card{
+    width: 450px;
+    height: auto;
 }
 
 button{
-    background-color: #3882f6
+    background-color: #3882f6;
+    align-self: flex-start;
+    height: 40px;
+    width: 180px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section2 {
    background-color: white; 
-   border-style: solid;
-   border-width: 10px;
-   border-color: aqua;
    padding: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+}
+
+.row-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.row-images div img {
+    height: 200px;
+    width: 250px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: 5px;
+    border-radius: 15px;
 }
 
 .section3{
     background-color: #e5e7eb;
     height: 300px;
-    padding: 150px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+em {
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.author{
+    color: black;
+    font-weight: 900;
+    align-self: flex-end;
 }
 
 .section4{
@@ -87,12 +152,14 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 25px;
+    padding: 10px;
 }
 
-ul {
+
+ ul{
     display: flex;
     list-style: none;
     justify-content: space-between;
-    gap: 20px;
+    gap: 30px;
 }
+
