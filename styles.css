@@ -119,10 +119,11 @@ button{
     gap: 15px;
 }
 
-em {
-    color: black;
-    font-size: 24px;
+.section3 div {
+    color: #1f2937;
+    font-size: 36px;
     font-weight: 500;
+    font-style: italic;
 }
 
 .author{
@@ -132,19 +133,60 @@ em {
 }
 
 .section4{
-    border-style: solid;
-    border-width: 10px;
-    border-color: green;
-    height: 200px;
+    background-color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.container{
+    background-color:  #3882f6;
+    width: 700px;
+    height: 150px;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-around;
+    padding: 15px;
+    color: white;
+}
+
+.container h2{
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.container div{
+    width: 400px;
+}
+
+.container button{
+    background-color:  #3882f6;
+    height: 40px;
+    width: 180px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    border-width: 2px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+    
 
 .footer{
     background-color:  #1f2937;
     padding: 50px;
-    border-color: orange;
-    border-style: solid;
-    border-width: 10px;
-    height: 50px;
+    height: 10px;
+    color: white;
+    text-align: center;
 }
 
 nav {
